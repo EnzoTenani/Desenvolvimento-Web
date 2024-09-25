@@ -17,11 +17,11 @@ app.post("/upload", upload.single('file'), (req, res) => {
     res.send("Upload realizado com sucesso!");
   });
 
-app.get("/", function(req, res) {
+app.get("/Inicio", function(req, res) {
     res.send("Pagina inicial: ");
 });
 
-app.get("/about", function(req, res) {
+app.get("/Sobre", function(req, res) {
     res.send("Sobre: ");
 });
 
